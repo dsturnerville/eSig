@@ -1,2 +1,2 @@
 # eSig
-E-Signature app for Cash America
+E-Signature app for Installment
