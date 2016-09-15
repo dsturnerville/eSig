@@ -12,6 +12,7 @@
 		0753BD171D63A37600C76920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0753BD151D63A37600C76920 /* Main.storyboard */; };
 		0753BD191D63A37600C76920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0753BD181D63A37600C76920 /* Assets.xcassets */; };
 		0753BD1C1D63A37600C76920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0753BD1A1D63A37600C76920 /* LaunchScreen.storyboard */; };
+		077EAB0F1D8B115E0099419C /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 077EAB0E1D8B115E0099419C /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0753BD181D63A37600C76920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0753BD1B1D63A37600C76920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0753BD1D1D63A37600C76920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077EAB0E1D8B115E0099419C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				0753BD111D63A37600C76920 /* AppDelegate.swift */,
 				0753BD131D63A37600C76920 /* ViewController.swift */,
+				077EAB0E1D8B115E0099419C /* Settings.bundle */,
 				0753BD151D63A37600C76920 /* Main.storyboard */,
 				0753BD181D63A37600C76920 /* Assets.xcassets */,
 				0753BD1A1D63A37600C76920 /* LaunchScreen.storyboard */,
@@ -91,12 +94,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Cash America";
 				TargetAttributes = {
 					0753BD0D1D63A37600C76920 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = TCSGKYSX47;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -123,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077EAB0F1D8B115E0099419C /* Settings.bundle in Resources */,
 				0753BD1C1D63A37600C76920 /* LaunchScreen.storyboard in Resources */,
 				0753BD191D63A37600C76920 /* Assets.xcassets in Resources */,
 				0753BD171D63A37600C76920 /* Main.storyboard in Resources */,
@@ -177,8 +182,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -223,8 +230,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -243,6 +252,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -258,6 +268,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = casham.ESigBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -272,6 +283,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = casham.ESigBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
